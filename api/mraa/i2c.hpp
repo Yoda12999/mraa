@@ -163,7 +163,7 @@ class I2c {
          * @param length Size of buffer to send
          * @return Result of operation
          */
-        mraa_result_t write(const uint8_t* data, int length) {
+        mraa_result_t write(const uint8_t *data, int length) {
             return mraa_i2c_write(m_i2c, data, length);
         }
 
